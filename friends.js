@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     console.log(j + " line of code in the file, line of code; " + (friend) + " strikes one out, clears it all out, no more lines of code in the file.");
 
                 }
-            }
+            } 
         }
     });
 });

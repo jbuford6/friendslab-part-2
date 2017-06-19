@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function singSong() {
         for (var i = 0; i < friends.length; i++) {
             console.log(friends[i] + ":");
-            var friend = friends[i];            
+            var friend = friends[i];
             var board = document.createElement('div');
             board.className = 'friend';
             var names = document.createElement("h3");
-            var text = document.createTextNode(friend);         
+            var text = document.createTextNode(friend);
             names.appendChild(text);
             board.appendChild(names);
             document.body.appendChild(board);
@@ -31,8 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     });
-
-
 });
 
 
